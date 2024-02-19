@@ -1,0 +1,420 @@
+[2024-01-28T19:24:45.798102 15472] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:45.798251 15472] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:45.798280 15472] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:45.798280 15472] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) base_dir = 
+[2024-01-28T19:24:45.798280 15472] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:45.798280 15472] Config: (default) compiler = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:45.798280 15472] Config: (default) compiler_type = auto
+[2024-01-28T19:24:45.798280 15472] Config: (default) compression = true
+[2024-01-28T19:24:45.798280 15472] Config: (default) compression_level = 0
+[2024-01-28T19:24:45.798280 15472] Config: (default) cpp_extension = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) debug = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) debug_dir = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) depend_mode = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) direct_mode = true
+[2024-01-28T19:24:45.798280 15472] Config: (default) disable = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) file_clone = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) hard_link = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) hash_dir = true
+[2024-01-28T19:24:45.798280 15472] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) ignore_options = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) inode_cache = true
+[2024-01-28T19:24:45.798280 15472] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:45.798280 15472] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:45.798280 15472] Config: (default) max_files = 0
+[2024-01-28T19:24:45.798280 15472] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:45.798280 15472] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:45.798280 15472] Config: (default) namespace = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) path = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) prefix_command = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) read_only = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) read_only_direct = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) recache = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) remote_only = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) remote_storage = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) reshare = false
+[2024-01-28T19:24:45.798280 15472] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:45.798280 15472] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:45.798280 15472] Config: (default) stats = true
+[2024-01-28T19:24:45.798280 15472] Config: (default) stats_log = 
+[2024-01-28T19:24:45.798280 15472] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:45.798280 15472] Config: (default) umask = 
+[2024-01-28T19:24:45.798394 15472] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __constants.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace __constants.c
+[2024-01-28T19:24:45.804962 15472] Hostname: LapTop-8860
+[2024-01-28T19:24:45.805089 15472] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:45.805157 15472] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:45.805196 15472] Compiler type: gcc
+[2024-01-28T19:24:45.805820 15472] Source file: __constants.c
+[2024-01-28T19:24:45.805841 15472] Object file: __constants.o
+[2024-01-28T19:24:45.806132 15472] Trying direct lookup
+[2024-01-28T19:24:45.806395 15472] Manifest key: 1811js9giegg44o18k91tmmsjtodjtc5m
+[2024-01-28T19:24:45.806643 15472] Retrieved 1811js9giegg44o18k91tmmsjtodjtc5m from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/11js9giegg44o18k91tmmsjtodjtc5mM)
+[2024-01-28T19:24:45.806742 15000] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:45.806809 15000] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:45.806820 15000] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:45.806820 15000] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) base_dir = 
+[2024-01-28T19:24:45.806820 15000] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:45.806820 15000] Config: (default) compiler = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:45.806820 15000] Config: (default) compiler_type = auto
+[2024-01-28T19:24:45.806820 15000] Config: (default) compression = true
+[2024-01-28T19:24:45.806820 15000] Config: (default) compression_level = 0
+[2024-01-28T19:24:45.806820 15000] Config: (default) cpp_extension = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) debug = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) debug_dir = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) depend_mode = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) direct_mode = true
+[2024-01-28T19:24:45.806820 15000] Config: (default) disable = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) file_clone = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) hard_link = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) hash_dir = true
+[2024-01-28T19:24:45.806820 15000] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) ignore_options = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) inode_cache = true
+[2024-01-28T19:24:45.806820 15000] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:45.806820 15000] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:45.806820 15000] Config: (default) max_files = 0
+[2024-01-28T19:24:45.806820 15000] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:45.806820 15000] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:45.806820 15000] Config: (default) namespace = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) path = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) prefix_command = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) read_only = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) read_only_direct = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) recache = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) remote_only = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) remote_storage = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) reshare = false
+[2024-01-28T19:24:45.806820 15000] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:45.806820 15000] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:45.806820 15000] Config: (default) stats = true
+[2024-01-28T19:24:45.806820 15000] Config: (default) stats_log = 
+[2024-01-28T19:24:45.806820 15000] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:45.806820 15000] Config: (default) umask = 
+[2024-01-28T19:24:45.806905 15000] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __helpers.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace __helpers.c
+[2024-01-28T19:24:45.813241 15000] Hostname: LapTop-8860
+[2024-01-28T19:24:45.813273 15000] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:45.813295 15000] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:45.813303 15000] Compiler type: gcc
+[2024-01-28T19:24:45.813704 15000] Source file: __helpers.c
+[2024-01-28T19:24:45.813723 15000] Object file: __helpers.o
+[2024-01-28T19:24:45.814011 15000] Trying direct lookup
+[2024-01-28T19:24:45.814275 15000] Manifest key: f76arc0r3lt3cc31vk9hj4a704npg0bri
+[2024-01-28T19:24:45.814648 15000] Retrieved f76arc0r3lt3cc31vk9hj4a704npg0bri from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/7/6arc0r3lt3cc31vk9hj4a704npg0briM)
+[2024-01-28T19:24:45.817510 41624] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:45.817577 41624] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:45.817586 41624] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:45.817586 41624] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) base_dir = 
+[2024-01-28T19:24:45.817586 41624] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:45.817586 41624] Config: (default) compiler = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:45.817586 41624] Config: (default) compiler_type = auto
+[2024-01-28T19:24:45.817586 41624] Config: (default) compression = true
+[2024-01-28T19:24:45.817586 41624] Config: (default) compression_level = 0
+[2024-01-28T19:24:45.817586 41624] Config: (default) cpp_extension = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) debug = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) debug_dir = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) depend_mode = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) direct_mode = true
+[2024-01-28T19:24:45.817586 41624] Config: (default) disable = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) file_clone = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) hard_link = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) hash_dir = true
+[2024-01-28T19:24:45.817586 41624] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) ignore_options = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) inode_cache = true
+[2024-01-28T19:24:45.817586 41624] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:45.817586 41624] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:45.817586 41624] Config: (default) max_files = 0
+[2024-01-28T19:24:45.817586 41624] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:45.817586 41624] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:45.817586 41624] Config: (default) namespace = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) path = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) prefix_command = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) read_only = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) read_only_direct = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) recache = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) remote_only = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) remote_storage = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) reshare = false
+[2024-01-28T19:24:45.817586 41624] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:45.817586 41624] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:45.817586 41624] Config: (default) stats = true
+[2024-01-28T19:24:45.817586 41624] Config: (default) stats_log = 
+[2024-01-28T19:24:45.817586 41624] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:45.817586 41624] Config: (default) umask = 
+[2024-01-28T19:24:45.817645 41624] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __loader.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace __loader.c
+[2024-01-28T19:24:45.823228 41624] Hostname: LapTop-8860
+[2024-01-28T19:24:45.823266 41624] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:45.823290 41624] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:45.823303 41624] Compiler type: gcc
+[2024-01-28T19:24:45.823725 41624] Source file: __loader.c
+[2024-01-28T19:24:45.823743 41624] Object file: __loader.o
+[2024-01-28T19:24:45.824047 41624] Trying direct lookup
+[2024-01-28T19:24:45.824296 41624] Manifest key: bb71es8ug3i72rrllpbbbj02chqlbtk1k
+[2024-01-28T19:24:45.824629 41624] Retrieved bb71es8ug3i72rrllpbbbj02chqlbtk1k from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/b/71es8ug3i72rrllpbbbj02chqlbtk1kM)
+[2024-01-28T19:24:45.830912 8556 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:45.830985 8556 ] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:45.830999 8556 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) base_dir = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) compiler = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) compiler_type = auto
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) compression = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) compression_level = 0
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) cpp_extension = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) debug = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) debug_dir = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) depend_mode = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) direct_mode = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) disable = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) file_clone = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) hard_link = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) hash_dir = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) ignore_options = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) inode_cache = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) max_files = 0
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) namespace = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) path = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) prefix_command = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) read_only = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) read_only_direct = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) recache = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) remote_only = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) remote_storage = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) reshare = false
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) stats = true
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) stats_log = 
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:45.830999 8556 ] Config: (default) umask = 
+[2024-01-28T19:24:45.831122 8556 ] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.__main__.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace module.__main__.c
+[2024-01-28T19:24:45.836949 8556 ] Hostname: LapTop-8860
+[2024-01-28T19:24:45.836988 8556 ] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:45.837009 8556 ] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:45.837020 8556 ] Compiler type: gcc
+[2024-01-28T19:24:45.837431 8556 ] Source file: module.__main__.c
+[2024-01-28T19:24:45.837450 8556 ] Object file: module.__main__.o
+[2024-01-28T19:24:45.837794 8556 ] Trying direct lookup
+[2024-01-28T19:24:45.838446 8556 ] Manifest key: 0d656k1c58r5ti9tfpl5ubnoalf8ibap2
+[2024-01-28T19:24:45.838704 8556 ] Retrieved 0d656k1c58r5ti9tfpl5ubnoalf8ibap2 from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/d/656k1c58r5ti9tfpl5ubnoalf8ibap2M)
+[2024-01-28T19:24:45.847485 7736 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:45.847583 7736 ] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:45.847598 7736 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) base_dir = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) compiler = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) compiler_type = auto
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) compression = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) compression_level = 0
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) cpp_extension = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) debug = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) debug_dir = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) depend_mode = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) direct_mode = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) disable = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) file_clone = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) hard_link = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) hash_dir = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) ignore_options = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) inode_cache = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) max_files = 0
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) namespace = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) path = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) prefix_command = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) read_only = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) read_only_direct = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) recache = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) remote_only = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) remote_storage = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) reshare = false
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) stats = true
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) stats_log = 
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:45.847598 7736 ] Config: (default) umask = 
+[2024-01-28T19:24:45.847693 7736 ] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace static_src\MainProgram.c
+[2024-01-28T19:24:45.854090 41624] Got result key from manifest
+[2024-01-28T19:24:45.854141 41624] Result key: e83duneu5m4ohn7se6vr9appoihconoeq
+[2024-01-28T19:24:45.854357 41624] Retrieved e83duneu5m4ohn7se6vr9appoihconoeq from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/3duneu5m4ohn7se6vr9appoihconoeqR)
+[2024-01-28T19:24:45.854855 41624] Reading embedded entry #0 .o (11131 bytes)
+[2024-01-28T19:24:45.854874 41624] Writing to __loader.o
+[2024-01-28T19:24:45.855595 41624] Succeeded getting cached result
+[2024-01-28T19:24:45.855663 41624] Result: direct_cache_hit
+[2024-01-28T19:24:45.855675 41624] Result: local_storage_hit
+[2024-01-28T19:24:45.855686 41624] Result: local_storage_read_hit
+[2024-01-28T19:24:45.855696 41624] Result: local_storage_read_hit
+[2024-01-28T19:24:45.855721 41624] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.856052 7736 ] Hostname: LapTop-8860
+[2024-01-28T19:24:45.856077 7736 ] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:45.856095 7736 ] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:45.856106 7736 ] Compiler type: gcc
+[2024-01-28T19:24:45.856555 41624] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.856607 7736 ] Source file: static_src\MainProgram.c
+[2024-01-28T19:24:45.856627 7736 ] Object file: static_src\MainProgram.o
+[2024-01-28T19:24:45.856967 7736 ] Trying direct lookup
+[2024-01-28T19:24:45.857320 7736 ] Manifest key: 7797suismo0ej6f6t4u6navl3tjop37cu
+[2024-01-28T19:24:45.857584 7736 ] Retrieved 7797suismo0ej6f6t4u6navl3tjop37cu from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/97suismo0ej6f6t4u6navl3tjop37cuM)
+[2024-01-28T19:24:45.858287 41624] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.858500 41624] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.909706 15472] Got result key from manifest
+[2024-01-28T19:24:45.909743 15472] Result key: 6ee8m7ebepqt6305qu4evid15esqna6tq
+[2024-01-28T19:24:45.909951 15472] Retrieved 6ee8m7ebepqt6305qu4evid15esqna6tq from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/e8m7ebepqt6305qu4evid15esqna6tqR)
+[2024-01-28T19:24:45.910291 15472] Reading embedded entry #0 .o (17395 bytes)
+[2024-01-28T19:24:45.910304 15472] Writing to __constants.o
+[2024-01-28T19:24:45.910825 15472] Succeeded getting cached result
+[2024-01-28T19:24:45.910880 15472] Result: direct_cache_hit
+[2024-01-28T19:24:45.910887 15472] Result: local_storage_hit
+[2024-01-28T19:24:45.910894 15472] Result: local_storage_read_hit
+[2024-01-28T19:24:45.910900 15472] Result: local_storage_read_hit
+[2024-01-28T19:24:45.910917 15472] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock
+[2024-01-28T19:24:45.911559 15000] Got result key from manifest
+[2024-01-28T19:24:45.911592 15000] Result key: 77eed0obbv631vijkun35eqiefi6vh9na
+[2024-01-28T19:24:45.911832 15000] Retrieved 77eed0obbv631vijkun35eqiefi6vh9na from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/eed0obbv631vijkun35eqiefi6vh9naR)
+[2024-01-28T19:24:45.912020 15472] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock
+[2024-01-28T19:24:45.912249 15000] Reading embedded entry #0 .o (2651 bytes)
+[2024-01-28T19:24:45.912268 15000] Writing to __helpers.o
+[2024-01-28T19:24:45.912802 15000] Succeeded getting cached result
+[2024-01-28T19:24:45.912846 15000] Result: direct_cache_hit
+[2024-01-28T19:24:45.912856 15000] Result: local_storage_hit
+[2024-01-28T19:24:45.912865 15000] Result: local_storage_read_hit
+[2024-01-28T19:24:45.912874 15000] Result: local_storage_read_hit
+[2024-01-28T19:24:45.912893 15000] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.913363 15472] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock
+[2024-01-28T19:24:45.913492 15472] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/stats.lock
+[2024-01-28T19:24:45.913800 15000] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.916383 15000] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.916986 15000] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/stats.lock
+[2024-01-28T19:24:45.930000 8556 ] Got result key from manifest
+[2024-01-28T19:24:45.930044 8556 ] Result key: 68649dj36i2u4tnrfvqroot6lmf8solc6
+[2024-01-28T19:24:45.930377 8556 ] Retrieved 68649dj36i2u4tnrfvqroot6lmf8solc6 from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/649dj36i2u4tnrfvqroot6lmf8solc6R)
+[2024-01-28T19:24:45.930900 8556 ] Reading embedded entry #0 .o (174009 bytes)
+[2024-01-28T19:24:45.930923 8556 ] Writing to module.__main__.o
+[2024-01-28T19:24:45.931619 8556 ] Succeeded getting cached result
+[2024-01-28T19:24:45.931664 8556 ] Result: direct_cache_hit
+[2024-01-28T19:24:45.931672 8556 ] Result: local_storage_hit
+[2024-01-28T19:24:45.931678 8556 ] Result: local_storage_read_hit
+[2024-01-28T19:24:45.931685 8556 ] Result: local_storage_read_hit
+[2024-01-28T19:24:45.931701 8556 ] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:45.933393 8556 ] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:45.934461 8556 ] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:45.934608 8556 ] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:45.946910 7736 ] Got result key from manifest
+[2024-01-28T19:24:45.946944 7736 ] Result key: 4ea587tj4tfq21iaueh6d2uk1shbkj6nq
+[2024-01-28T19:24:45.947158 7736 ] Retrieved 4ea587tj4tfq21iaueh6d2uk1shbkj6nq from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/e/a587tj4tfq21iaueh6d2uk1shbkj6nqR)
+[2024-01-28T19:24:45.947542 7736 ] Reading embedded entry #0 .o (47693 bytes)
+[2024-01-28T19:24:45.947556 7736 ] Writing to static_src\MainProgram.o
+[2024-01-28T19:24:45.948248 7736 ] Succeeded getting cached result
+[2024-01-28T19:24:45.948312 7736 ] Result: direct_cache_hit
+[2024-01-28T19:24:45.948325 7736 ] Result: local_storage_hit
+[2024-01-28T19:24:45.948334 7736 ] Result: local_storage_read_hit
+[2024-01-28T19:24:45.948344 7736 ] Result: local_storage_read_hit
+[2024-01-28T19:24:45.948366 7736 ] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-28T19:24:45.949966 7736 ] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-28T19:24:45.950930 7736 ] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-28T19:24:45.951044 7736 ] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2024-01-28T19:24:46.024000 33388] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-28T19:24:46.024076 33388] Configuration file: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-28T19:24:46.024086 33388] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-28T19:24:46.024086 33388] Config: (default) absolute_paths_in_stderr = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) base_dir = 
+[2024-01-28T19:24:46.024086 33388] Config: (environment) cache_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-28T19:24:46.024086 33388] Config: (default) compiler = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) compiler_check = mtime
+[2024-01-28T19:24:46.024086 33388] Config: (default) compiler_type = auto
+[2024-01-28T19:24:46.024086 33388] Config: (default) compression = true
+[2024-01-28T19:24:46.024086 33388] Config: (default) compression_level = 0
+[2024-01-28T19:24:46.024086 33388] Config: (default) cpp_extension = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) debug = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) debug_dir = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) depend_mode = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) direct_mode = true
+[2024-01-28T19:24:46.024086 33388] Config: (default) disable = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) extra_files_to_hash = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) file_clone = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) hard_link = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) hash_dir = true
+[2024-01-28T19:24:46.024086 33388] Config: (default) ignore_headers_in_manifest = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) ignore_options = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) inode_cache = true
+[2024-01-28T19:24:46.024086 33388] Config: (default) keep_comments_cpp = false
+[2024-01-28T19:24:46.024086 33388] Config: (environment) log_file = D:\Mediapipe Example\Mediapipe Example\Hands.build\ccache-17376.txt
+[2024-01-28T19:24:46.024086 33388] Config: (default) max_files = 0
+[2024-01-28T19:24:46.024086 33388] Config: (default) max_size = 5.0 GiB
+[2024-01-28T19:24:46.024086 33388] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-28T19:24:46.024086 33388] Config: (default) namespace = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) path = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) pch_external_checksum = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) prefix_command = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) prefix_command_cpp = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) read_only = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) read_only_direct = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) recache = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) remote_only = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) remote_storage = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) reshare = false
+[2024-01-28T19:24:46.024086 33388] Config: (default) run_second_cpp = true
+[2024-01-28T19:24:46.024086 33388] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-28T19:24:46.024086 33388] Config: (default) stats = true
+[2024-01-28T19:24:46.024086 33388] Config: (default) stats_log = 
+[2024-01-28T19:24:46.024086 33388] Config: (default) temporary_dir = C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-28T19:24:46.024086 33388] Config: (default) umask = 
+[2024-01-28T19:24:46.024149 33388] Command line: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\zlib -ID:\python3.8.10\include -I. -ID:\Desktop\try\Lib\site-packages\nuitka\build\include -ID:\Desktop\try\Lib\site-packages\nuitka\build\static_src -ID:\Desktop\try\Lib\site-packages\nuitka\build\inline_copy\libbacktrace static_src\CompiledFunctionType.c
+[2024-01-28T19:24:46.028859 33388] Hostname: LapTop-8860
+[2024-01-28T19:24:46.028893 33388] Working directory: D:/Mediapipe Example/Mediapipe Example/Hands.build
+[2024-01-28T19:24:46.028909 33388] Compiler: C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-28T19:24:46.028916 33388] Compiler type: gcc
+[2024-01-28T19:24:46.029295 33388] Source file: static_src\CompiledFunctionType.c
+[2024-01-28T19:24:46.029307 33388] Object file: static_src\CompiledFunctionType.o
+[2024-01-28T19:24:46.029521 33388] Trying direct lookup
+[2024-01-28T19:24:46.029847 33388] Manifest key: fcf5lsu04c459s8f4lh4phn7ven6cg7l8
+[2024-01-28T19:24:46.030135 33388] Retrieved fcf5lsu04c459s8f4lh4phn7ven6cg7l8 from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/f5lsu04c459s8f4lh4phn7ven6cg7l8M)
+[2024-01-28T19:24:46.127160 33388] Got result key from manifest
+[2024-01-28T19:24:46.127219 33388] Result key: 248a3ptfll0vvo0pmh7tru2ak7nj5j92a
+[2024-01-28T19:24:46.128771 33388] Retrieved 248a3ptfll0vvo0pmh7tru2ak7nj5j92a from local storage (C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/4/8a3ptfll0vvo0pmh7tru2ak7nj5j92aR)
+[2024-01-28T19:24:46.131398 33388] Reading embedded entry #0 .o (3512444 bytes)
+[2024-01-28T19:24:46.131423 33388] Writing to static_src\CompiledFunctionType.o
+[2024-01-28T19:24:46.133589 33388] Succeeded getting cached result
+[2024-01-28T19:24:46.133832 33388] Result: direct_cache_hit
+[2024-01-28T19:24:46.133868 33388] Result: local_storage_hit
+[2024-01-28T19:24:46.133881 33388] Result: local_storage_read_hit
+[2024-01-28T19:24:46.133894 33388] Result: local_storage_read_hit
+[2024-01-28T19:24:46.133925 33388] Acquiring C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:46.135050 33388] Acquired C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:46.136543 33388] Releasing C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-28T19:24:46.136701 33388] Released C:\Users\LZF67\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
